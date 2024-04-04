@@ -1,0 +1,457 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+}
+.containerAll{
+    margin: 30px 20px;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+/* navbar styling */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav{
+    background: #000030;
+    border-radius: 20px 20px 0 0;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+/* navlinks */
+.logo{
+    font-weight: bold;
+    font-size:25px ;
+    text-shadow: 1px 1px 2px #0184ff;
+
+}
+
+.navLinks ul li{
+    display: inline-flex; 
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.navLinks ul li a{
+    text-decoration: none ;
+    color: #eaefff;
+}
+.navLinks ul li a:hover{
+    color: #00ffe5;
+}
+.shop ul li{
+    display: inline-flex;
+    margin-left: 20px;
+}
+.shop ul li a{
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.shop ul li a:hover{
+    color: #003827;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 5px;
+}
+/* hero section */
+/* hero section */
+/* hero section */
+/* hero section */
+.hero{
+    background-image: url(images/hero3.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    backface-visibility:visible;
+    background-position-y: -80px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+.heroH2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.heroH2 span{
+    font-weight:900 ;
+    color: red;
+}
+.heroH2 h1{
+    width: 700px;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+}
+.heroLorem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.heroLorem p{
+    width: 700px;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.buyBtns{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnsParent{
+    width: 55%;
+    text-align: left;
+}
+.btnsParent button{
+    padding: 10px 30px;
+    margin-left: 30px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+.btnsParent button:hover{
+    background-color: #ffffff0e;
+    color: #fffdfd;
+}
+ .btnsParent .buyNow{
+    background-color: red;
+    
+}
+.btnsParent .buyNow:hover{
+    background-color: #ff0000b4;
+    color: #fffdfd;
+}
+.btnsParent .learnMore:hover{
+    background-color: #06ecc6;
+    color: #000000;
+}
+/* Simple about us on landing page */
+/* Simple about us on landing page */
+/* Simple about us on landing page */
+/* Simple about us on landing page */
+.aboutusLanding{
+    border: solid 1px white;
+    display: inline-flex;
+    align-items: center;
+    background-color: #c50000;
+    z-index: 4;
+    position:relative;
+}
+.aboutsImage{
+    width: 40%;
+    background: transparent;
+    position: relative;
+    top: -100px;
+    left: 50px;
+}
+.aboutsImage img{
+    height: 600px;
+    width: 400px;
+}
+.aboutsMessage{
+    width: 50%;
+    line-height: 25px;
+    margin-right: 60px;
+}
+.aboutsMessage h2{
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.aboutsMessage p{
+    color: #ffffff;
+    padding-bottom: 20px;
+
+}
+.aboutsMessage .learnMore{
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 93px;
+    text-align: center;
+    background-color: transparent;
+
+}
+.aboutsMessage .learnMore:hover{
+    border: none;
+    color: #000000;
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+/* What we've got */
+/* What we've got */
+/* What we've got */
+/* What we've got */
+.have{
+    background-color: #ebebeb;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+    gap: 80px;
+    height: 600px;
+    margin: 0;
+}
+.haveMessage{
+    width: 40%;
+    line-height: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.haveMessage h1{
+    line-height: 30px;
+    font-family:monospace;
+}
+.someMessage{
+    padding-top: 50px;
+}
+.someMessage h3{
+    font-weight: bold;
+    font-family: serif;
+    line-height: 5px;
+    box-sizing: border-box;
+
+}
+.someMessage p{
+    font-weight: lighter;
+    font-family: serif;
+    line-height: 5px;
+}
+.moreText p{
+    padding-top: 30px;
+    font-size: 18px;
+    text-align-last: left;
+    line-height: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.moreText button{
+     padding: 10px 5px;
+    margin-left: 30px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+}
+.moreText button:hover{
+    color: white;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+
+.haveImage{
+    width: 40%;
+
+}
+.haveImage img{
+    width: 400px;
+    height: 400px;
+}
+/* Explore styling section */
+/* Explore styling section */
+/* Explore styling section */
+/* Explore styling section */
+.explore{
+    width: 100%rem;
+    margin: 0;
+    padding: 0 30px;
+    background-color: #ebebeb;
+    z-index: 4;
+    position: relative;
+    padding-bottom: 10px;
+}
+.exploreHeader{
+    background-color: transparent;
+    border: 1px solid #ebebeb;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.explore img{
+    height: 400px;
+    width: 290px; 
+    padding: 0 5px; 
+    margin-bottom: 30px;
+}
+.explore .ExploreMore{
+    text-align: right;
+    margin-right: 20px;
+}
+.explore button{
+    padding: 10px 5px;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.explore button:hover{
+    padding: 10px 5px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 5px;
+}
+/* Footer styling section */
+/* Footer styling section */
+/* Footer styling section */
+/* Footer styling section */
+
+footer{
+    background-color: #c50000;
+    border-radius: 0 0 20px 20px;
+}
+.nav2{
+    display: flex;
+    line-height: 23px;
+    border-radius: 0 0 20px 20px;
+}
+/* footer right side */
+/* footer right side */
+/* footer right side */
+/* footer right side */
+
+.logoDiv2 {
+    width: 50%;
+    margin-left: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoDiv2 .logo{
+    text-shadow: 1px 1px 2px black;
+    color: #ffe0e0;
+
+}
+.footerTxt{
+    width: 80%;
+    color: #00041d;
+    text-shadow: -1px -1px 1px #ffffff;
+}
+.iconsAnd{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:last baseline;
+    width: 100%;
+}
+.icons ul{
+    margin-left: -40px;
+}
+.icons ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    line-height: 30px;
+}
+.icons ul li a{
+    text-decoration: none;
+    color: #00041d
+    
+}
+.icons ul li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.copyR{
+    line-height: 5px;
+    font-weight: lighter;
+    color: #00001f;
+}
+/* Footer left side */
+/* Footer left side */
+/* Footer left side */
+/* Footer left side */
+/* Footer left side */
+
+.navLinksAnd{
+    width: 50%;
+    margin-right: 40px;
+    margin-left: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.navLinks2{
+    margin-left: -100px;
+    
+}
+.navLinks2 ul li{
+    display: inline-flex;
+    margin-left: 20px;
+
+}
+.navLinks2 ul li a{
+    text-decoration: none;
+    color: #fdfeff;
+
+}
+.navLinks2 ul li a:hover{
+    color: #000000;
+}
+.moreOfContacts {
+    color: #000822;
+    line-height: 20px;
+}
+.moreOfContacts h3{
+    color: #000000;
+    margin-bottom: -10px;
+    margin-bottom: 10px;
+}
+.moreOfContacts ul{
+    margin-left: -40px;
+    line-height: 30px;
+}
+.moreOfContacts ul li{
+    list-style-type: none;
+    font-weight: bold;
+}
+.moreOfContacts ul li:hover{
+    color: white;
+}
+.locationAnd{
+    display: flex;
+    justify-content: space-between;
+    align-items:last baseline ;
+    line-height: 15px;
+    color: #000416;
+
+}
+.MoreLocation{
+    width: 300px;
+    margin-top: -5px;
+}
+ .overNow{
+    width: 15%;
+    margin-left: 90px;
+    font-weight: lighter;
+}
+
